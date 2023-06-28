@@ -22,6 +22,16 @@
 
     <script src="assets/js/modernizr.custom.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .recent-proj-image {
+            transition: transform .2s ease;
+            overflow: hidden;
+        }
+        .recent-proj-image:hover {
+            transform: scale(1.1);
+        }
+    </style>
 </head>
 
 <body>
@@ -70,12 +80,12 @@
                             <span class="link-text">Resume</span>
                         </a>
                     </li>
-                    <!-- <li>
-                            <a href="#portfolio" class="nav-anim">
-                                <span class="menu-icon lnr lnr-briefcase"></span>
-                                <span class="link-text">Portfolio</span>
-                            </a>
-                        </li> -->
+                    <li>
+                        <a href="#recent-project" class="nav-anim">
+                            <span class="menu-icon lnr lnr-screen"></span>
+                            <span class="link-text">Recent Project</span>
+                        </a>
+                    </li>
                     <li>
                         <a href="#contact" class="nav-anim">
                             <span class="menu-icon lnr lnr-envelope"></span>
@@ -466,6 +476,37 @@
                     </section>
                     <!-- End of Resume Subpage -->
 
+                    <!-- Recent Work Subpage -->
+                    <section data-id="recent-project" class="animated-section">
+                        <div class="page-title">
+                            <h2>Recent
+                                <span>Project</span>
+                            </h2>
+                        </div>
+
+                        <div class="section-content">
+                            <p style="font-weight: bold;">Automatic Schedule Loader</p>
+                            <div style="justify-content: center; align-items: center;" class="row">
+                                <div class="col-xs-12 col-sm-6">
+                                    <div style="border: 1px solid #0ba376; padding: 20px; border-radius: 15px; height: 100%;" class="card p-2">
+                                        <img class="recent-proj-image" style="width: 100%; object-fit: cover;" src="./assets/img/rp-2.png" alt="">
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-12 col-sm-6">
+                                    <div style="border: 1px solid #0ba376; padding: 20px; border-radius: 15px; height: 100%;" class="card p-2">
+                                        <img class="recent-proj-image" style="width: 100%; object-fit: cover;" src="./assets/img/rp-1.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End of Personal Information -->
+
+                            <div class="white-space-50"></div>
+
+
+                        </div>
+                    </section>
+                    <!-- End of About Me Subpage -->
 
 
                     <!-- Contact Subpage -->
